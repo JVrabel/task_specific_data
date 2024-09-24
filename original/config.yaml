@@ -7,7 +7,7 @@ HUGGINGFACE:
   HUB_PATH: yourusername/your-path-here
   PRIVATE: False
   PUSH_TO_HUB: False
-PATH:
+PATH:cd
   DEFAULT_PROMPTS: ./prompts
   INPUT: ./input
   OUTPUT: ./output

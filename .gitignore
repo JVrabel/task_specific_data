@@ -28,3 +28,4 @@ _model_training_configs/autometa*
 _model_training_configs/intelorca*
 editing_output*
 **/*EIGHTY_SIX*.txt
+/KD_LLM/

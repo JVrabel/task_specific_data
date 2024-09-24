@@ -1,8 +1,8 @@
 API:
   API_KEY: your-key-here
   BASE_URL: http://localhost:11434/v1
-  LARGE_LOGICAL_MODEL: mistral
-  LOGICAL_MODEL: mistral
+  LARGE_LOGICAL_MODEL: llama3.1:8b
+  LOGICAL_MODEL: llama3.1:8b
 HUGGINGFACE:
   HUB_PATH: yourusername/your-path-here
   PRIVATE: False
@@ -19,6 +19,7 @@ SKIP:
   ANSWER_RELEVANCY_CHECK: False
   FILTER_CHUNKS: False
   QUESTION_CHECK: False
+  CONVERSATION_GENERATION: False
 SYSTEM:
   CHUNK_SIZE: 1900
   COMPLETION_MODE: False
@@ -46,3 +47,9 @@ SYSTEM:
   SUBSET_SIZE: 15
   USE_FILENAMES: False
   USE_SUBSET: False
+
+SCRAPING:
+  USE_GUTENBERG: False
+  START_URL: "https://www.gutenberg.org/ebooks/bookshelf/57"
+  MAX_BOOKS: 5
+  MAX_FAILURES: 5
