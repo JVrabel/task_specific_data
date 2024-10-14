@@ -8,10 +8,10 @@ HUGGINGFACE:
   PRIVATE: False
   PUSH_TO_HUB: False
 PATH:
-  DEFAULT_PROMPTS: ./prompts_NOcontext_answer
+  DEFAULT_PROMPTS: ./prompts
   INPUT: ./input
   OUTPUT: ./output
-  PROMPTS: ./prompts_NOcontext_answer
+  PROMPTS: ./prompts
 PHASE:
   PHASE_INDEX: 3
   WORK_IN_PHASES: False
@@ -44,12 +44,12 @@ SYSTEM:
     '
   MODE: api
   STOP: True
-  SUBSET_SIZE: 15
+  SUBSET_SIZE: 100
   USE_FILENAMES: False
   USE_SUBSET: False
 
 SCRAPING:
-  USE_GUTENBERG: False
-  START_URL: "https://www.gutenberg.org/ebooks/bookshelf/57"
-  MAX_BOOKS: 5
+  USE_GUTENBERG: True
+  START_URL: "https://www.gutenberg.org/ebooks/bookshelf/419"  #"https://www.gutenberg.org/ebooks/bookshelf/57"
+  MAX_BOOKS: 10
   MAX_FAILURES: 5
