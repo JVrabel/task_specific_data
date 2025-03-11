@@ -1,0 +1,20 @@
+# May be incomplete
+protobuf 
+sentencepiece 
+torch
+transformers
+accelerate
+matplotlib 
+nltk 
+openai
+aiohttp
+pyyaml
+asyncio
+httpx
+orjson
+cohere
+pyarrow
+datasets
+scikit-learn
+chardet
+streamlit

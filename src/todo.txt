@@ -1,0 +1,6 @@
+write immediately to the file
+reset context
+filter out non-relevant tags
+check chunking
+check relevance better
+check what happens when non-relevant text is 
